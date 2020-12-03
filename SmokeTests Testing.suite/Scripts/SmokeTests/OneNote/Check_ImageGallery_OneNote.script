@@ -1,0 +1,34 @@
+﻿(* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+  Script generated:  2020-03-10 09:01:41
+  From session:  testImages3
+  Captured on:  2020-03-10 08:58:23
+  From server:  K43974
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *)
+run "Open/OneNote"
+
+Click "OneNote_Einfügen"
+
+If ImageFound("OneNote_ImagesIcon") then
+	
+Else
+	Click "OneNote_Einfügen"
+End if
+
+
+Click "OneNote_ImagesIcon"
+Wait 5
+Click "Explorer_Bilder_Icon"
+DoubleClick "Explorer_Gallery"
+DoubleClick "Explorer_Bilder_Illustrationen"
+DoubleClick "Explorer_Bilder_Bild"
+
+WaitFor 10, "Excel_Bild_BMW"
+
+
+If ImageFound("Excel_Bild_BMW") then
+	LogSuccess "Funktioniert"
+	
+Else
+	LogError "Fail"
+	
+End if

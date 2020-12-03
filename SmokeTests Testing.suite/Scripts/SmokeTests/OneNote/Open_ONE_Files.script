@@ -1,0 +1,11 @@
+﻿DoubleClick "OneNote_TestFile_Icon"
+WaitFor 10, "OneNote_Header_Icon"
+
+If ImageFound("OneNote_Header_Icon") then
+	LogSuccess "Funktioniert"
+	Click ""
+	
+Else
+	LogError "Fail"
+	
+End if

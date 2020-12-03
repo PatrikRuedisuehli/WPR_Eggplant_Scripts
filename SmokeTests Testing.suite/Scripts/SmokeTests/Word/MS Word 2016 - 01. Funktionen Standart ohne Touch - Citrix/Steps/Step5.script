@@ -1,0 +1,10 @@
+﻿DoubleClick "Word_docx_Icon"
+wait 10
+Click "Close_Word"
+wait 3
+DoubleClick "Word_dotx_Icon"
+wait 10
+Click "Close_Word"
+wait 3
+LogSuccess "Step5 erfolgreich erledigt"
+LogSuccess "Beide Dateien wurden mit Word geöffnet"

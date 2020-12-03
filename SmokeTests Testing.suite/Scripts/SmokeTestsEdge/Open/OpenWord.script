@@ -1,0 +1,13 @@
+﻿run "SmokeTestsEdge/Open/OpenCitrixOnEdge"
+TypeText "Word"
+Wait 2
+Click "Word_Icon"
+Wait 90
+If ImageFound("Word_Header_Icon") then
+	Click "Word_Header_Icon"
+	
+Else
+	Click "Word_Icon"
+	WaitFor 90.0, "Word_Header_Icon"
+	Click "Word_Header_Icon"
+End if

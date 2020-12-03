@@ -1,0 +1,38 @@
+﻿TypeText altKey, "d"
+wait 5
+TypeText altKey
+wait 2
+Click "Excel_Menü_Optionen"
+Click "Excel_AddIns"
+Click "Excel_Verwalten_DropDown"
+Click "Excel_Verwalten_COMADDIns"
+Click "Excel_AddIns_Los"
+wait 2
+Click "Excel_ComAddIns_MSPowerMap_Anklicken"
+Click "Excel_OK"
+Click "Close_Excel"
+Click "Close_Citrix"
+wait 3
+run "Open/Citrix_Workplace"
+run "Open/Excel"
+run "SmokeTests/Excel/MS Excel 2016 - 01. Funktionen Standard ohne Touch - Citrix/ExcelFail"
+Click "Excel_Menü_Einfügen"
+Click "Excel_3D_Karte"
+Click "Excel_3D_Karte_öffnen"
+wait 20
+if ImageFound("Excel_3D_World")
+	
+	LogSuccess "Step12 erfolgreich erledigt"
+	LogSuccess "PowerMap erscheint und man kann es anwählen"
+	
+	else
+	LogError "PowerMap erscheint nicht und man kann es nicht anwenden"
+end if
+
+Click "Close_Excel"
+Click "Close_Excel"
+wait 3
+
+If ImageFound("Excel_NichtSpeichern") then Click "Excel_NichtSpeichern"
+
+

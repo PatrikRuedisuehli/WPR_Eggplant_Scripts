@@ -1,0 +1,10 @@
+﻿DoubleClick "Desktop_PublisherIcon"
+WaitFor 10, "Publisher_File_Open"
+
+If ImageFound("Publisher_File_Open") then
+	LogSuccess "Funktioniert"
+	
+Else
+	LogError "Fail"
+	
+End if

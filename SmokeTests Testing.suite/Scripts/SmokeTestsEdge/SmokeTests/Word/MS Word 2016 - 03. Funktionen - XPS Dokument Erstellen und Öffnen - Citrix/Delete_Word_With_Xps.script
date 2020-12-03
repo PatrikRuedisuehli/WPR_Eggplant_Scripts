@@ -1,0 +1,7 @@
+﻿Click "Windows_Explorer"
+DoubleClick"Bilder_Icon_Bibliothek"
+RightClick "XPS_Datei"
+wait 3
+Click "Delete_Image"
+wait 3
+Click "Close_Explorer"

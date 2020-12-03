@@ -1,0 +1,11 @@
+﻿run "SmokeTests/OneNote/Check_ImageGallery_OneNote"
+run "SmokeTests/OneNote/Close_OneNote"
+run "SmokeTests/OneNote/Check_DefaultFont"
+run "SmokeTests/OneNote/Close_OneNote"
+run "SmokeTests/OneNote/Check_Printer_OneNote"
+Click "Close_Citrix"
+wait 2
+run "SmokeTests/OneNote/Create_ONE_File"
+run "SmokeTests/OneNote/Open_ONE_Files"
+run "SmokeTests/OneNote/Close_OneNote"
+run "SmokeTests/OneNote/Delete_ONE_File"

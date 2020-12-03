@@ -1,0 +1,17 @@
+﻿Click "Excel_Cell_A1"
+TypeText "1", return
+Click "Excel_Cell_A2"
+Click "Excel_Währungs_Formatierung"
+Click "Excel_Cell_A2"
+TypeText "10", return
+if ImageFound("Excel_Cell_A2_Formartiert")
+	LogSuccess "Step7 erfolgreich erledigt"
+	LogSuccess "Die beliebige Zahl konnte mit einem Klick auf den Button Buchhaltungszahlenformat in die CHF Währung umformatiert werden."
+else
+	LogError "Die beliebige Zahl konnte nicht mit einem Klick auf den Button Buchhaltungszahlenformat in die CHF Währung umformatiert werden."
+end if
+
+Click "Close_Excel"
+wait 3
+
+If ImageFound("Excel_NichtSpeichern") then Click "Excel_NichtSpeichern"

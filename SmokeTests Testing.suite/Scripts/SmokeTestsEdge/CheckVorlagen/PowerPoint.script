@@ -1,0 +1,10 @@
+﻿Run "SmokeTestsEdge/Open/OpenPowerPoint"
+Click "PowerPoint_SBB_Tab"
+If ImageFound("PowerPoint_SBBVorlage_Clicked") then
+	LogSuccess "SBB Vorlagen sind vorhanden!"
+Else
+	LogError "SBB Vorlagen sind nicht vorhanden!"
+End if
+
+run "SmokeTestsEdge/SmokeTests/PowerPoint/Close_PowerPoint"
+Click "Edge_Close"

@@ -1,0 +1,16 @@
+﻿TypeText altKey, "d"
+wait 5
+TypeText altKey
+wait 3
+Click "Word_Neu"
+Click "Word_Freigegebene"
+wait 2
+if ImageFound("Word_SBB_Vorlagen_Im_Neu")
+	LogSuccess "Step9 erfolgreich erledigt"
+	LogSuccess "SBB Vorlagen sind under Menü -> Datei -> Neu vorhanden"
+	Click "Close_Word"
+else
+	LogError "SBB Vorlagen sind under Menü -> Datei -> Neu nicht vorhanden"
+end if
+
+Click "Close_Word"

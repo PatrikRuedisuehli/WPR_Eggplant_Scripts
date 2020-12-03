@@ -1,0 +1,12 @@
+﻿If ImageFound("Excel_Standart_Schriftart&Grösse")
+	LogSuccess "Step5 erfolgreich erledigt"
+	LogSuccess "Nach dem Aufstarten von Excel wird die Standardschrift Arial, 10pt verwendet."
+	
+else
+	LogError "Nach dem Aufstarten von Excel wird die Standardschrift Arial, 10pt nicht verwendet."		
+End If
+
+Click "Close_Excel"
+wait 3
+
+If ImageFound("Excel_NichtSpeichern") then Click "Excel_NichtSpeichern"

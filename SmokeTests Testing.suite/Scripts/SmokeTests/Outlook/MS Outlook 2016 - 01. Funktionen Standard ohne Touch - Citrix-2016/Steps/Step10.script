@@ -1,0 +1,13 @@
+﻿Click "Outlook_NeueEmail"
+Click "Outlook_NeueEmail_TextFormatieren"
+if ImageFound("Outlook_NeueEmail_TextFormatieren_Auswahl")
+	Click "Close_Outlook"
+	Click "Close_Outlook"
+	LogSuccess "Step10 erfolgreich erledigt"
+	LogSuccess "Standardnachrichtenformat (HTML) kann durch den Benutzer verändert werden."
+else
+	LogError "Standardnachrichtenformat (HTML) kann durch den Benutzer nicht verändert werden."
+end if
+
+Click "Close_Outlook"
+Click "Close_Outlook"

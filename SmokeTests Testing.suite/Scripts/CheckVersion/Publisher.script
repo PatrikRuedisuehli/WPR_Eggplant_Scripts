@@ -1,0 +1,5 @@
+﻿run "Open/Publisher"
+
+click "Publisher_Datei"
+Click "Publisher_Konto"
+Click "Info"

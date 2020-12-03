@@ -1,0 +1,12 @@
+﻿Click "Outlook_NeueEmail"
+Click "Outlook_NeueEmail_Optionen"
+if ImageFound("Outlook_BerechtigungenIcon")
+	
+	LogSuccess "Step2 erflogreich erledigt"
+	LogSuccess "In Outlook Neue Email ist bei Optionen das Feld Berechtigungen sichtbar"
+else
+	LogError "In Outlook Neue Email ist bei Optionen das Feld Berechtigungen nicht sichtbar"
+end if
+
+Click "Close_Outlook"
+Click "Close_Outlook"

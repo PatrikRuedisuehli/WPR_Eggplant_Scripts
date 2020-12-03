@@ -1,0 +1,10 @@
+﻿Click "Windows_Explorer"
+DoubleClick "Desktop_Image"
+RightClick "RightClick"
+wait 2
+Click "Menü_Neu"
+Click "Desktop_New_TextFile"
+TypeText Backspace,DeleteKey,DeleteKey,DeleteKey,DeleteKey,DeleteKey,DeleteKey
+TypeText "OneNoteTestFile.one", return
+Click "Dateiformat_ändern_bestätigen"
+Click "Close_Explorer"

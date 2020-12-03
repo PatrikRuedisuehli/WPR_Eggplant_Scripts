@@ -1,0 +1,19 @@
+﻿TypeText altKey, "d"
+wait 5
+TypeText altKey
+wait 2
+Click "Outlook_Kontoeinstellungen"
+Click "Outlook_Kontoeinstellungen_2"
+Click "Outlook_Kontoeinstellungen_Email"
+Click "Outlook_Kontoeinstellungen_Email_ändern"
+if ImageFound("Outlook_Kontoeinstellungen_Email_ändern_Exchange-Cache")
+	wait 2
+	Click "Outlook_Close_Kontoeinstellungen"
+	Click "Outlook_Close_Kontoeinstellungen"
+	wait 3
+	Click "Close_Outlook"
+	LogSuccess "Step4 erfolgreich erledigt"
+	LogSuccess "Der Exchange-Cache-Modus ist deaktiviert und kann nicht aktiviert werden."
+else
+	LogError "Der Exchange-Cache-Modus ist nicht deaktiviert und kann aktiviert werden."
+end if

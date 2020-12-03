@@ -1,0 +1,39 @@
+{
+	"lastmodifieddate": 1606299215.3899999,
+	"originalcapturelocation": [
+		62,
+		195,
+		29,
+		32
+	],
+	"createddate": 1606299215.3899999,
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_71",
+					"HotSpot": "[14,16]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Citrix_Receiver_Icon/Citrix_Receiver_Icon.png",
+				"connectionname": "K43978",
+				"type": 1,
+				"capturerect": [
+					62,
+					195,
+					29,
+					32
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "K43978"
+			}
+	],
+	"name": "Citrix_Receiver_Icon/Citrix_Receiver_Icon"
+}

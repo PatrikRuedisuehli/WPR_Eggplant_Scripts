@@ -1,0 +1,11 @@
+﻿if ImageFound("XPS_Open_With_PDFxChange")
+	Click "XPS_Open_With_PDFxChange"
+	Click "Word_OK"
+	wait 10
+	Click "PDFxChange_Close"
+else
+	wait 10
+	Click "PDFxChange_Close"
+end if
+wait 5
+Click "Close_Word"

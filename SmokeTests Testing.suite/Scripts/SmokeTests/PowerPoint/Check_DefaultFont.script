@@ -1,0 +1,23 @@
+﻿run "Open/PowerPoint"
+
+If ImageFound("PowerPoint_Titel") then
+	
+Else
+	Click "PowerPoint_Header_Icon"
+End if
+
+
+Click ("PowerPoint_Titel")
+
+If ImageFound("PowerPoint_Titel_Font") then
+	Click ("PowerPoint_UnterTitel")
+	If ImageFound("PowerPoint_UnterTitel_Font") then
+		LogSuccess "Fonts are correct"
+		
+	Else
+		LogError "Wrong Font"
+	End if
+	
+Else
+	LogError "Wrong Font"
+End if

@@ -1,0 +1,3 @@
+run "CheckVorlagen/Excel"
+run "CheckVorlagen/PowerPoint"
+run "CheckVorlagen/Word"

@@ -1,0 +1,19 @@
+﻿Run "Open/PowerPoint"
+
+Click "Powerpoint_Einfuegen"
+wait 2
+Click "Powerpoint_Bilder"
+Click "Explorer_Bilder_Icon"
+DoubleClick "Explorer_Gallery"
+DoubleClick "Explorer_Bilder_Illustrationen"
+DoubleClick "Explorer_Bilder_Bild"
+
+WaitFor 10, "Excel_Bild_BMW"
+
+
+If ImageFound("Excel_Bild_BMW") then
+	LogSuccess "Funktioniert"
+	
+Else
+	LogError "Fail"
+End if

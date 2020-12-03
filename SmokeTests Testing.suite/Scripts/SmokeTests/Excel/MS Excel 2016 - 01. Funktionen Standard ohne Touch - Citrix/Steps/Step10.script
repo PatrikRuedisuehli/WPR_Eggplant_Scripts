@@ -1,0 +1,28 @@
+﻿TypeText altKey, "d"
+wait 5
+TypeText altKey
+wait 2
+Click "Excel_Menü_Optionen"
+Click "Excel_AddIns"
+Click "Excel_Verwalten_DropDown"
+Click "Excel_Verwalten_COMADDIns"
+Click "Excel_AddIns_Los"
+wait 2
+if ImageFound("Excel_ComAddIns_MSPowerPivot")
+	LogSuccess "Step10 erflogreich erledigt"
+	LogSuccess "Das Add-In Power Pivot ist nicht aktiviert,wird beim Start von Excel nicht geladen."
+else
+	LogError "Das Add-In Power Pivot ist aktiviert,wird beim Start von Excel geladen."
+end if
+
+Click "Excel_Abbrechen"
+wait 2
+
+Click "Close_Excel"
+wait 3
+
+If ImageFound("Excel_NichtSpeichern") then Click "Excel_NichtSpeichern"
+
+
+
+

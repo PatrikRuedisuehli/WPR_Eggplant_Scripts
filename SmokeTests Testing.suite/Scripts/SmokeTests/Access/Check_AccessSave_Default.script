@@ -1,0 +1,50 @@
+﻿(* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+  Script generated:  2020-03-23 09:08:14
+  From session:  testAccess2
+  Captured on:  2020-03-23 07:50:40
+  From server:  K43974
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *)
+run "Open/Access"
+
+DoubleClick "Access_NewDatabase/Access_NewDatabase2"
+TypeText altKey, "d", "o"
+wait 5
+TypeText altKey
+wait 2
+
+//Triple Click
+put the RemoteWorkInterval into defaultRWI
+put the MouseDoubleClickDelay into clickTime
+set the RemoteWorkInterval to clickTime
+
+Click "Access_Optionen_Durchsuchen"
+Click
+Click
+
+set the RemoteWorkInterval to defaultRWI
+
+
+TypeText OptionKey,"<<", "filer15",  OptionKey,"<", "e510105",  OptionKey,"<", "Desktop"
+Click "Access_Optionen_Ok"
+Click "Access_Close"
+
+run "Open/Access"
+
+DoubleClick "Access_NewDatabase/Access_NewDatabase2"
+TypeText altKey, "d", "o"
+wait 5
+TypeText altKey
+wait 2
+
+If ImageFound("Access_DataPath") then
+	LogSuccess "Funktioniert"
+	
+	Click "Access_Optionen_Ok"
+	Click "Access_Close"
+Else
+	LogError "Funktioniert nicht"
+	
+	Click "Access_Optionen_Ok"
+	Click "Access_Close"
+End if
+

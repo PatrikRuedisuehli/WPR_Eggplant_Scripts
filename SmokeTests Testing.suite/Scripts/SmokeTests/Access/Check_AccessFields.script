@@ -1,0 +1,51 @@
+﻿(* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+  Script generated:  2020-03-17 15:50:34
+  From session:  testAccess1
+  Captured on:  2020-03-17 14:14:16
+  From server:  K43974
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *)
+run "Open/Access"
+
+DoubleClick "Access_NewDatabase"
+Click "Access_AddField"
+Click "Access_AddField_Currency"
+DoubleClick "Access_CurrencyCHF"
+TypeText "72.40"
+
+Click "Access_AddField2"
+Click "Access_Date"
+DoubleClick "Access_InsertField"
+TypeText "16.9.2020"
+TypeText Return
+
+Click "Access_AddField2"
+Click "Access_Date"
+DoubleClick "Access_AddField3"
+TypeText "9>08"
+TypeText Return
+
+If ImageFound("Access_CHFOK") then
+	If ImageFound("Access_CHFOK") then
+		LogSuccess "Funktioniert"
+	Else
+		LogError "Fail"
+	End if
+	
+	LogSuccess "Funktioniert"
+	
+Else
+	LogError "Fail"
+	
+End if
+
+Click "Access_Close"
+
+If ImageFound("Access_CloseSave") 
+	Click "Access_CloseSave"
+else
+	
+End If
+
+
+
+

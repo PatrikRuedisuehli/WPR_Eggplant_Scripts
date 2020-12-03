@@ -1,0 +1,16 @@
+﻿TypeText altKey, "d"
+wait 5
+TypeText altKey
+wait 2
+Click "Excel_Menü_Informationen"
+Click "Excel_ArbeitsmappeSchützen"
+if ImageFound("Excel_ArbeitsmappeSchützen_Dropdown")
+	LogSuccess "Step3 erfolgreich erledigt"
+	LogSuccess "Die Berechtigung nach Personen einschränken ist nicht sichtbar"
+else
+	LogError "Die Berechtigung nach Personen einschränken ist sichtbar."
+end if
+Click "Close_Excel"
+
+
+

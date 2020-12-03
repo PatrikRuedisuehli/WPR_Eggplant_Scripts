@@ -1,0 +1,23 @@
+﻿TypeText altKey, "d"
+wait 5
+TypeText altKey
+wait 2
+Click "Excel_Menü_Neu"
+wait 2
+Click "Excel_Neu_Benutzerdefiniert"
+Click "Excel_Benutzerdefinierte_Office_Vorlagen"
+if ImageFound("Excel_Benutzerdefinierte_Office_Vorlagen_Leer")
+	LogSuccess "Step2 erfolgreich erledigt"
+	LogSuccess "Benutzerdefineirte Office Vorlagen sind in Excel Leer"
+else
+	LogError "Benutzerdefineirte Office Vorlagen sind in Excel nicht Leer"
+	
+end if
+Click "Close_Excel"
+
+
+
+
+
+
+

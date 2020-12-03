@@ -1,0 +1,13 @@
+﻿run "Open/Citrix_Workplace"
+TypeText "Access"
+Wait 2
+Click "Access_Icon"
+Wait 90
+If ImageFound("Access_Header_Icon") then
+	Click "Access_Header_Icon"
+	
+Else
+	Click "Access_Icon"
+	WaitFor 90.0, "Access_Header_Icon"
+	Click "Access_Header_Icon"
+End if

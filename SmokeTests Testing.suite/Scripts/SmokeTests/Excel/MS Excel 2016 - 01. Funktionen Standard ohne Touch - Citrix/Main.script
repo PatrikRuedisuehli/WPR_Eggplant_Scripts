@@ -1,0 +1,86 @@
+﻿///Step1///
+run "Open/Excel"
+run "SmokeTests/Excel/MS Excel 2016 - 01. Funktionen Standard ohne Touch - Citrix/ExcelFail"
+run "SmokeTests/Excel/MS Excel 2016 - 01. Funktionen Standard ohne Touch - Citrix/Steps/Step1"
+Click "Close_Citrix"
+wait 2
+
+///Step2///
+//run "Open/Excel"
+//run "SmokeTests/Excel/MS Excel 2016 - 01. Funktionen Standard ohne Touch - Citrix/ExcelFail"
+//run "SmokeTests/Excel/MS Excel 2016 - 01. Funktionen Standard ohne Touch - Citrix/Steps/Step2"
+//Click "Close_Citrix"
+//wait 2
+
+///Step3///
+run "Open/Excel"
+run "SmokeTests/Excel/MS Excel 2016 - 01. Funktionen Standard ohne Touch - Citrix/ExcelFail"
+run "SmokeTests/Excel/MS Excel 2016 - 01. Funktionen Standard ohne Touch - Citrix/Steps/Step3"
+Click "Close_Citrix"
+wait 2
+
+///Step4///
+run "Open/Excel"
+run "SmokeTests/Excel/MS Excel 2016 - 01. Funktionen Standard ohne Touch - Citrix/ExcelFail"
+run "SmokeTests/Excel/MS Excel 2016 - 01. Funktionen Standard ohne Touch - Citrix/Steps/Step4"
+Click "Close_Citrix"
+wait 2
+
+///Step5///
+run "Open/Excel"
+run "SmokeTests/Excel/MS Excel 2016 - 01. Funktionen Standard ohne Touch - Citrix/ExcelFail"
+run "SmokeTests/Excel/MS Excel 2016 - 01. Funktionen Standard ohne Touch - Citrix/Steps/Step5"
+Click "Close_Citrix"
+wait 2
+
+///Step6///
+run "SmokeTests/Excel/MS Excel 2016 - 01. Funktionen Standard ohne Touch - Citrix/Create_Excel_With_Xlsx&Xltx"
+run "SmokeTests/Excel/MS Excel 2016 - 01. Funktionen Standard ohne Touch - Citrix/Steps/Step6"
+run "SmokeTests/Excel/MS Excel 2016 - 01. Funktionen Standard ohne Touch - Citrix/Delete_Excel_With_Xlsx&Xltx"
+wait 2
+
+///Step7///
+run "Open/Excel"
+run "SmokeTests/Excel/MS Excel 2016 - 01. Funktionen Standard ohne Touch - Citrix/ExcelFail"
+run "SmokeTests/Excel/MS Excel 2016 - 01. Funktionen Standard ohne Touch - Citrix/Steps/Step7"
+Click "Close_Citrix"
+wait 2
+
+///Step8///
+
+///Step9///
+run "Open/Excel"
+run "SmokeTests/Excel/MS Excel 2016 - 01. Funktionen Standard ohne Touch - Citrix/ExcelFail"
+run "SmokeTests/Excel/MS Excel 2016 - 01. Funktionen Standard ohne Touch - Citrix/Steps/Step9"
+Click "Close_Citrix"
+wait 2
+
+///Step10///
+run "Open/Excel"
+run "SmokeTests/Excel/MS Excel 2016 - 01. Funktionen Standard ohne Touch - Citrix/ExcelFail"
+run "SmokeTests/Excel/MS Excel 2016 - 01. Funktionen Standard ohne Touch - Citrix/Steps/Step10"
+Click "Close_Citrix"
+wait 2
+
+///Step11///
+run "Open/Excel"
+run "SmokeTests/Excel/MS Excel 2016 - 01. Funktionen Standard ohne Touch - Citrix/ExcelFail"
+run "SmokeTests/Excel/MS Excel 2016 - 01. Funktionen Standard ohne Touch - Citrix/Steps/Step11"
+Click "Close_Citrix"
+wait 2
+
+///Step12///
+run "Open/Excel"
+run "SmokeTests/Excel/MS Excel 2016 - 01. Funktionen Standard ohne Touch - Citrix/ExcelFail"
+run "SmokeTests/Excel/MS Excel 2016 - 01. Funktionen Standard ohne Touch - Citrix/Steps/Step12"
+Click "Close_Citrix"
+wait 2
+
+///Step13///
+run "Open/Excel"
+run "SmokeTests/Excel/MS Excel 2016 - 01. Funktionen Standard ohne Touch - Citrix/ExcelFail"
+run "SmokeTests/Excel/MS Excel 2016 - 01. Funktionen Standard ohne Touch - Citrix/Steps/Step13"
+Click "Close_Citrix"
+
+///Step14///
+//nicht automatisierbar//

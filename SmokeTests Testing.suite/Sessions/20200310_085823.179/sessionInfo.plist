@@ -1,0 +1,10 @@
+{
+    adaptiveConstant = <*I7>;
+    commandList = "[{captureRect:[129, 714, 176, 727], elementName:\"OneNote_Einf\U00FCgen\", eventNum:2, folderPath:\"\", hotSpot:[154, 45.807107], imageName:\"OneNote_Einf\U00FCgen\", itemEvent:\"TurboListItemEvent_Click\", itemMode:\"TurboListItemMode_Existing\", itemType:\"TurboListItemType_Image\", screenShotFile:\"Screen0002.png\", searchType:\"Tolerant of Background\", skipStep:0, userModified:1, usingTempImageName:0, waitForTime:-1}, {captureRect:[271, 664, 288, 681], elementName:\"OneNote_ImagesIcon\", eventNum:4, folderPath:\"\", hotSpot:[285, 95.51269], imageName:\"OneNote_ImagesIcon\", itemEvent:\"TurboListItemEvent_Click\", itemMode:\"TurboListItemMode_Existing\", itemType:\"TurboListItemType_Image\", screenShotFile:\"Screen0004.png\", searchType:\"Tolerant of Background\", skipStep:0, userModified:1, usingTempImageName:0, waitForTime:-1}, {captureRect:[206, 622, 296, 635], elementName:\"OneNote_ImageInExplorer\", eventNum:6, folderPath:\"\", hotSpot:[309, 136], imageName:\"OneNote_ImageInExplorer\", itemEvent:\"TurboListItemEvent_Click\", itemMode:\"TurboListItemMode_Existing\", itemType:\"TurboListItemType_Image\", screenShotFile:\"Screen0006.png\", searchType:\"Tolerant of Background\", skipStep:0, userModified:1, usingTempImageName:0, waitForTime:-1}, {captureRect:[412, 308.472081, 499, 333.472081], elementName:\"OneNote_InsertImage\", eventNum:8, folderPath:\"\", hotSpot:[442, 440.527919], imageName:\"OneNote_InsertImage\", itemEvent:\"TurboListItemEvent_Click\", itemMode:\"TurboListItemMode_Existing\", itemType:\"TurboListItemType_Image\", screenShotFile:\"Screen0008.png\", searchType:\"Tolerant of Background\", skipStep:0, userModified:1, usingTempImageName:0, waitForTime:-1}]";
+    dilations = <*I3>;
+    maxSize = <*I300>;
+    minSize = <*I16>;
+    savedWithEpfVersion = <*I1912121710>;
+    sessionType = turboSession;
+    sessionUsesDOMObjects = <*BN>;
+}

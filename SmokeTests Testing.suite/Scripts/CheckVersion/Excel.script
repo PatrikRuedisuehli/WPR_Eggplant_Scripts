@@ -1,0 +1,5 @@
+﻿run "Open/Excel"
+
+Click "Excel_Datei"
+Click "Excel_Konto"
+Click "Info"

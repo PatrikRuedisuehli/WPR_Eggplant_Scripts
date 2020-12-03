@@ -1,0 +1,13 @@
+﻿run "Open/Citrix_Workplace"
+TypeText "Skype"
+Wait 2
+Click "Skype_Icon"
+Wait 90
+If ImageFound("Skype_Header_Icon") then
+	Click "Skype_Header_Icon"
+	
+Else
+	Click "Skype_Icon"
+	WaitFor 90.0, "Skype_Header_Icon"
+	Click "Skype_Header_Icon"
+End if

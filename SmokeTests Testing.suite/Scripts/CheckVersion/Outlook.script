@@ -1,0 +1,5 @@
+﻿run "Open/Outlook"
+
+Click "Outlook_Datei"
+Click "Outlook_Konto"
+Click "Info"

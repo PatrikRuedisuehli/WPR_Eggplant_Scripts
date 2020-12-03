@@ -1,0 +1,34 @@
+﻿TypeText altKey, "d"
+wait 5
+TypeText altKey
+wait 2
+Click "Excel_Menü_Optionen"
+wait 2
+Click "Excel_TrustCenter"
+wait 2
+Click "Excel_TrustCenter_EinstellungenFürDasTrustCenter"
+wait 2
+Click "Excel_TrustCenter_Datenschutzoptionen"
+wait 2
+if ImageFound("Excel_Datenschutzoptionen_Einstellungen")
+	LogSuccess "Step4 erfolgreich erledigt"
+	LogSuccess "Datenschutzoptionen sind überall deaktiviert"
+	
+else
+	LogError "Datenschutzoptionen sind nicht richtig eingestellt"
+end if
+
+Click "Close_TrustCenter"
+Click "Close_TrustCenter"
+Click "Close_Excel"
+
+
+
+
+
+
+
+
+
+
+

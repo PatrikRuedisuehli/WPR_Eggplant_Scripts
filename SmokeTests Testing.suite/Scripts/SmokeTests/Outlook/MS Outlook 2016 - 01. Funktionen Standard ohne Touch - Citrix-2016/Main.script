@@ -1,0 +1,60 @@
+﻿///Step1///
+run "Open/Outlook"
+run "SmokeTests/Outlook/MS Outlook 2016 - 01. Funktionen Standard ohne Touch - Citrix-2016/Steps/Step1"
+Click "Close_Citrix"
+wait 2
+
+///Step2///
+run "Open/Outlook"
+run "SmokeTests/Outlook/MS Outlook 2016 - 01. Funktionen Standard ohne Touch - Citrix-2016/Steps/Step2"
+Click "Close_Citrix"
+wait 2
+
+///Step3///
+run "Open/Outlook"
+run "SmokeTests/Outlook/MS Outlook 2016 - 01. Funktionen Standard ohne Touch - Citrix-2016/Steps/Step3"
+Click "Close_Citrix"
+wait 2
+
+///Step4///
+run "Open/Outlook"
+run "SmokeTests/Outlook/MS Outlook 2016 - 01. Funktionen Standard ohne Touch - Citrix-2016/Steps/Step4"
+Click "Close_Citrix"
+wait 2
+
+///Step5///
+run "Open/Outlook"
+run "SmokeTests/Outlook/MS Outlook 2016 - 01. Funktionen Standard ohne Touch - Citrix-2016/Steps/Step5"
+Click "Close_Citrix"
+wait 2
+
+///Step6///
+run "Open/Outlook"
+run "SmokeTests/Outlook/MS Outlook 2016 - 01. Funktionen Standard ohne Touch - Citrix-2016/Steps/Step6"
+Click "Close_Citrix"
+wait 2
+
+///Step7///
+///
+///Kann nur lokal durchgeführt werden///
+///
+
+///Step8///
+run "Open/Outlook"
+run "SmokeTests/Outlook/MS Outlook 2016 - 01. Funktionen Standard ohne Touch - Citrix-2016/Steps/Step8"
+Click "Close_Citrix"
+wait 2
+
+///Step9///
+
+///Step10///
+run "Open/Outlook"
+run "SmokeTests/Outlook/MS Outlook 2016 - 01. Funktionen Standard ohne Touch - Citrix-2016/Steps/Step10"
+Click "Close_Citrix"
+wait 2
+
+///Step13///
+run "Open/Outlook"
+run "SmokeTests/Outlook/MS Outlook 2016 - 01. Funktionen Standard ohne Touch - Citrix-2016/Steps/Step13"
+Click "Close_Citrix"
+wait 2

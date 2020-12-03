@@ -1,0 +1,6 @@
+﻿Click "PowerPoint_Close"
+Wait 5
+If ImageFound("PowerPoint_CloseSave") then Click "PowerPoint_CloseSave"
+
+
+

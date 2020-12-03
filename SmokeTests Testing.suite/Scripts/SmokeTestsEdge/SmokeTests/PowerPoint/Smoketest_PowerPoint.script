@@ -1,0 +1,3 @@
+﻿run "SmokeTestsEdge/SmokeTests/PowerPoint/Check_ImageGallery_PowerPoint"
+run "SmokeTestsEdge/SmokeTests/PowerPoint/Check_DefaultFont"
+run "SmokeTestsEdge/CheckVorlagen/PowerPoint"

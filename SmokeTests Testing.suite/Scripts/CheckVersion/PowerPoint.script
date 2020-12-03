@@ -1,0 +1,5 @@
+﻿run "Open/PowerPoint"
+
+Click "PowerPoint_Datei"
+Click "PowerPoint_Konto"
+Click "Info"

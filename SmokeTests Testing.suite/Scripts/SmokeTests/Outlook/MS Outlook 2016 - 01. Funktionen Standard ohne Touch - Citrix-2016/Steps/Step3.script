@@ -1,0 +1,33 @@
+﻿TypeText altKey, "d"
+wait 5
+TypeText altKey
+wait 2
+Click "Outlook_Menü_Optionen"
+wait 2
+Click "Outlook_LivevorschauAktivieren_deaktivieren"
+Click "Outlook_OK"
+Click "Close_Outlook"
+Click "Close_Citrix"
+wait 2
+run "Open/Citrix_Workplace"
+run "Open/Outlook"
+TypeText altKey, "d"
+wait 5
+TypeText altKey
+wait 2
+Click "Outlook_Menü_Optionen"
+wait 2
+if ImageFound("Outlook_LivevorschauAktivieren_aktivieren")
+	Click "Outlook_LivevorschauAktivieren_aktivieren"
+	Click "Outlook_OK"
+	Click "Close_Outlook"
+	LogSuccess "Step3 erfolgreich erledigt"
+	LogSuccess "Einstellungen werden behalten"
+else
+	LogError "Einstellungen werden nicht behalten"
+end if
+
+
+
+
+

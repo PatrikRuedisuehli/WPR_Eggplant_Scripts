@@ -1,0 +1,16 @@
+﻿Click "Close_Explorer"
+Click "Windows_Explorer"
+DoubleClick "Desktop_Image"
+Click "Word_TestDok1"
+RightClick"Word_TestDok1"
+wait 3
+Click "Delete_Image"
+wait 3
+Click "Word_TestDok2"
+RightClick "Word_TestDok2"
+wait 3
+Click "Delete_Image"
+Click "Close_Explorer"
+
+
+

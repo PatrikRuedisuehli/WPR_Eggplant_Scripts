@@ -1,0 +1,14 @@
+﻿run "Open/Citrix_Workplace"
+TypeText "Printers"
+Click "Citrix_Printer"
+
+WaitFor 60, "Citrix_Printer_OneNote"
+
+If ImageFound("Citrix_Printer_OneNote") then
+	LogSuccess "Funktioniert"
+	Click "Printer_Close"
+	
+Else
+	LogError "Fail"
+	
+End if

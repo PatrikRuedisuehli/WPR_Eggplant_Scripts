@@ -1,0 +1,39 @@
+{
+	"lastmodifieddate": 1606299480.8930001,
+	"originalcapturelocation": [
+		436,
+		743,
+		15,
+		14
+	],
+	"createddate": 1606299480.8930001,
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_45",
+					"HotSpot": "[7,7]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Edge_Icon.png",
+				"connectionname": "K43978",
+				"type": 1,
+				"capturerect": [
+					436,
+					743,
+					15,
+					14
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "K43978"
+			}
+	],
+	"name": "Edge_Icon"
+}

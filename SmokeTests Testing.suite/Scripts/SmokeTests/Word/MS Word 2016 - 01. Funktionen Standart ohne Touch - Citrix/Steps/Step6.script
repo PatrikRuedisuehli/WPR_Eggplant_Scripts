@@ -1,0 +1,19 @@
+﻿DoubleClick "Windows_Explorer"
+wait 3
+DoubleClick "Memorystick_Icon"
+wait 3
+DoubleClick "Word_Testdaten_Ordner_Icon"
+wait 3
+ScrollWheelDown 10
+DoubleClick "Word_Ordner_Icon"
+wait 3
+DoubleClick "Word_Mit_Makro"
+if ImageFound("Makro_Inhalt_Aktivieren")
+	LogSuccess "Step6 erfolreich erledigt"
+	LogSuccess "Man musste den Makro Inhalt zuerst bestätigen das man in benutzen kann"
+	Click "Close_Word"
+	Click "Close_Explorer"
+else
+	LogError "Man musste den Makro Inhalt nicht bestätigen das man in benutzen kann"
+end if
+

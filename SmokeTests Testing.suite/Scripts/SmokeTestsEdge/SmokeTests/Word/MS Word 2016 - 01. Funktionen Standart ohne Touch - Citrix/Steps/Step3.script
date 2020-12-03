@@ -1,0 +1,8 @@
+﻿Click "Windows_Explorer"
+wait 3
+DoubleClick "Bilder_Icon_Bibliothek"
+wait 3
+DoubleClick "SBB_Gallery_Verknüpfung"
+Click "Close_Explorer"
+LogSuccess "Step3 erfolgrich erledigt"
+LogSuccess "Die SBB-Standardvorlagen sind im Register SBB CFF FFS verfügbar"

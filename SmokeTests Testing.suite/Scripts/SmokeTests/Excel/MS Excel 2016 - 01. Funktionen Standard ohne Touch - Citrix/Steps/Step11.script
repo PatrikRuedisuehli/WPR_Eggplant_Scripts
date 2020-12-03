@@ -1,0 +1,31 @@
+﻿TypeText altKey, "d"
+wait 5
+TypeText altKey
+wait 2
+Click "Excel_Menü_Optionen"
+Click "Excel_AddIns"
+Click "Excel_Verwalten_DropDown"
+Click "Excel_Verwalten_COMADDIns"
+Click "Excel_AddIns_Los"
+wait 2
+Click "Excel_ComAddIns_MSPowerPivot_Anklicken"
+Click "Excel_OK"
+Click "Close_Excel"
+Click "Close_Citrix"
+wait 3
+run "Open/Citrix_Workplace"
+run "Open/Excel"
+run "SmokeTests/Excel/MS Excel 2016 - 01. Funktionen Standard ohne Touch - Citrix/ExcelFail"
+If ImageFound("Excel_PowerPivot")
+	LogSuccess "Step11 erfolgreich erledigt"
+	LogSuccess "Im Excel ist ein neues Register mit dem Namen «PowerPivot» erscheinen."
+else
+	LogError "Im Excel ist kein neues Register mit dem Namen «PowerPivot» erscheinen."
+End If
+
+Click "Close_Excel"
+wait 3
+
+If ImageFound("Excel_NichtSpeichern") then Click "Excel_NichtSpeichern"
+
+

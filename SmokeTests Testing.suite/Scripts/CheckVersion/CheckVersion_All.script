@@ -1,0 +1,8 @@
+run "CheckVersion/Access"
+run "CheckVersion/Excel"
+run "CheckVersion/OneNote"
+run "CheckVersion/Outlook"
+run "CheckVersion/PowerPoint"
+run "CheckVersion/Publisher"
+run "CheckVersion/Word"
+run "CheckVersion/Skype"

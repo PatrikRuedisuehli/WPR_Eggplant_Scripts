@@ -1,0 +1,16 @@
+﻿run "SmokeTestsEdge/Open/OpenOneNote"
+
+TypeText altKey, "d"
+wait 5
+TypeText altKey
+wait 3
+Click "OneNote_Optionen"
+
+If ImageFound("OneNote_DefaultFont") then
+	LogSuccess "Funktioniert"
+	Click (Image:"OneNote_CloseOption", WaitFor:2.7)
+	
+Else
+	LogError "Fail"
+	
+End if

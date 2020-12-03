@@ -1,0 +1,12 @@
+﻿///Step 1///
+run "Open/Word"
+run "SmokeTests/Word/MS Word 2016 - 03. Funktionen - XPS Dokument Erstellen und Öffnen - Citrix/Create_Word_With_Xps"
+wait 2
+run "SmokeTests/Word/MS Word 2016 - 03. Funktionen - XPS Dokument Erstellen und Öffnen - Citrix/Steps/Step1"
+wait 2
+Click "Close_Citrix"
+run "SmokeTests/Word/MS Word 2016 - 03. Funktionen - XPS Dokument Erstellen und Öffnen - Citrix/Delete_Word_With_Xps"
+LogSuccess "Step1 erfolgreich durchgeführt"
+LogSuccess "XPS Datei wurde mit PDF-XChange geöffnet"
+
+

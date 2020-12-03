@@ -1,0 +1,7 @@
+﻿Click "Windows_Explorer"
+DoubleClick "Desktop_Image"
+RightClick "RightClick"
+Click "Menü_Neu"
+Click "Desktop_New_PublisherIcon"
+TypeText "PublisherTestFile", return
+Click "Close_Explorer"

@@ -1,0 +1,8 @@
+﻿if ImageFound("Word_Schriftart_Und_Schriftgrösse")
+	LogSuccess "Step4 erfolgrich erledigt"
+	LogSuccess "Es ist Schriftart Arial und Schriftgrösse 11 eingestellt."
+else
+	LogError "Es ist nicht Schriftart Arial und Schriftgrösse 11 eingestellt."
+end if
+
+Click "Close_Word"

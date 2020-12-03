@@ -1,0 +1,17 @@
+﻿TypeText altKey, "d"
+wait 5
+TypeText altKey
+wait 2
+Click "Outlook_Menü_Optionen"
+wait 2
+Click "Outlook_Options_EmailKalender"
+Click "Outlook_Optionen_EMail_Signatur"
+if ImageFound("Outlook_Optionen_EMail_Signaturen")
+	Click "Outlook_Optionen_EMail_Signatur_Close"
+	Click "Outlook_Optionen_EMail_Signatur_Close"
+	Click "Close_Outlook"
+	LogSuccess "Step13 erfolgreich erledigt"
+	LogSuccess "SBB-Signatur- Vorlagen stehen in Sprachen (d,f,i) zur Verfügung."
+else
+	LogError "SBB-Signatur- Vorlagen stehen nicht in Sprachen (d,f,i) zur Verfügung."
+end if

@@ -1,0 +1,23 @@
+﻿Click "Outlook_NeueEmail"
+if ImageFound("Outlook_NeueEmail_Markierung_ErweiterungsIcon_2")
+	Click "Outlook_NeueEmail_Markierung_ErweiterungsIcon_2"
+else if ImageFound("Outlook_NeueEmail_Markierung")
+	Click "Outlook_NeueEmail_Markierung"
+	Click "Outlook_NeueEmail_Markierung_ErweiterungsIcon"
+else
+	Click "Outlook_NeueEmail_Markierung_ErweiterungsIcon_3"
+end if
+Click "Outlook_NeueEmail_MarkierungErweiterung_Wichtigkeit"
+Click "Outlook_NeueEmail_MarkierungErweiterung_Wichtigkeit_Hoch"
+wait 2
+Click "Outlook_NeueEmail_MarkierungErweiterung_Vertraulichkeit"
+Click "Outlook_NeueEmail_MarkierungErweiterung_Vertraulichkeit_Vertraulich"
+wait 2
+Click "Outlook_Schliessen"
+Click "Close_Outlook"
+Click "Outlook_ÄnderungenSpeichern_Nein"
+Click "Close_Outlook"
+LogSuccess "Step8 erfolgreich erledigt"
+LogSuccess "Wichtigkeit/Vertraulichkeit kann durch den Benutzer gesetzt werden."
+
+

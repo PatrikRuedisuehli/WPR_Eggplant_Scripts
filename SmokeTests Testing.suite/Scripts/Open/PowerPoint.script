@@ -1,0 +1,13 @@
+﻿run "Open/Citrix_Workplace"
+TypeText "PowerPoint"
+Wait 2
+Click "PowerPoint_Icon"
+Wait 90
+If ImageFound("PowerPoint_Header_Icon") then
+	Click "PowerPoint_Header_Icon"
+	
+Else
+	Click "PowerPoint_Icon"
+	WaitFor 90.0, "PowerPoint_Header_Icon"
+	Click "PowerPoint_Header_Icon"
+End if

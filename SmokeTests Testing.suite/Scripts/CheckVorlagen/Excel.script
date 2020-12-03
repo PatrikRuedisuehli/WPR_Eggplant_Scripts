@@ -1,0 +1,8 @@
+﻿run "Open/Excel"
+Click "Excel_SBB_Tab"
+If ImageFound("Excel_SBBVorlage_Clicked") then
+	LogSuccess "SBB Vorlagen sind vorhanden!"
+Else
+	LogError "SBB Vorlagen sind nicht vorhanden!"
+End if
+

@@ -1,0 +1,7 @@
+﻿run "SmokeTests/PowerPoint/Check_ImageGallery_PowerPoint"
+run "SmokeTests/PowerPoint/Close_PowerPoint"
+run "CheckVorlagen/PowerPoint"
+run "SmokeTests/PowerPoint/Close_PowerPoint"
+run "SmokeTests/PowerPoint/Check_DefaultFont"
+run "SmokeTests/PowerPoint/Close_PowerPoint"
+Click "Close_Citrix"

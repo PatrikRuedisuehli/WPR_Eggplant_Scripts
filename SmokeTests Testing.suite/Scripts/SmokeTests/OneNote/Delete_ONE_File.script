@@ -1,0 +1,7 @@
+﻿Click "Windows_Explorer"
+DoubleClick "Desktop_Image"
+Click "OneNote_TestFile_Icon"
+RightClick"OneNote_TestFile_Icon"
+wait 3
+Click "Delete_Image"
+Click "Close_Explorer"

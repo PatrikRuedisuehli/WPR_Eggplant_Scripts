@@ -1,0 +1,9 @@
+﻿if ImageFound("Excel_ZweiGleicheArbeitsmappen_Error")
+	Click "Excel_OK"
+	wait 5
+	Click "Close_Excel"
+	LogSuccess "Step1 erfolgreich erledigt"
+	LogSuccess "Excel konnte geöffnet werden"
+else
+	Click "Close_Excel"
+end if

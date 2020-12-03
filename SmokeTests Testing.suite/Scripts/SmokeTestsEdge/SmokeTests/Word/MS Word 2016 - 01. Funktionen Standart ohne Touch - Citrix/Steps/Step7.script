@@ -1,0 +1,31 @@
+﻿TypeText altKey, "d"
+Wait 5
+TypeText altKey
+wait 2
+Click "Word_Optionen"
+wait 3
+Click "Word_TrustCenter"
+wait 3
+Click "Word_EinstellungeFürDasTrustCenter"
+wait 3
+Click "Word_VertrauenswürdigeSpeicherorte"
+wait 3
+Click "Word_SpeicherorteDesBenutzers"
+wait 3
+
+Repeat until ImageFound("Word_filer16l")
+	if ImageFound("Word_filer16l")
+		Click "Word_filer16l"	
+	else
+		ScrollWheelDown 5
+	end if
+End repeat
+wait 3
+Click "Word_Options_Close"
+wait 3
+Click "Word_Options_Close"
+wait 3
+Click "Close_Word"
+LogSuccess "Step7 erfolgreich erledigt"
+LogSuccess "Trust Center ist gemäss Test richtig eingerichtet"
+

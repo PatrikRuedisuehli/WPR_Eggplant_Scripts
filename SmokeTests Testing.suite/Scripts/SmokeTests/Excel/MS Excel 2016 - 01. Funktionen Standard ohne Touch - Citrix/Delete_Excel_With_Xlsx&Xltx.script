@@ -1,0 +1,23 @@
+﻿Click "Close_Explorer"
+Click "Windows_Explorer"
+DoubleClick "Desktop_Image"
+Click "Excel_TestDok1"
+RightClick"Excel_TestDok1"
+wait 3
+Click "Delete_Image"
+wait 3
+Click "Excel_TestDok2"
+RightClick "Excel_TestDok2"
+wait 3
+Click "Delete_Image"
+wait 3
+Click "Excel_TestDok3"
+RightClick "Excel_TestDok3"
+wait 3
+Click "Delete_Image"
+wait 3
+Click "Excel_TestDok4"
+RightClick "Excel_TestDok4"
+wait 3
+Click "Delete_Image"
+Click "Close_Explorer"

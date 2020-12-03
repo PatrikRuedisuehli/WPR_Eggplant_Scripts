@@ -1,0 +1,13 @@
+﻿run "SmokeTestsEdge/Open/OpenCitrixOnEdge"
+TypeText "Publisher"
+Wait 2
+Click "Publisher_Icon"
+WaitFor 90.0, "Publisher_Header_Icon"
+If ImageFound("Publisher_Header_Icon") then
+	Click "Publisher_Header_Icon"
+	
+Else
+	Click "Publisher_Icon"
+	WaitFor 90.0, "Publisher_Header_Icon"
+	Click "Publisher_Header_Icon"
+End if

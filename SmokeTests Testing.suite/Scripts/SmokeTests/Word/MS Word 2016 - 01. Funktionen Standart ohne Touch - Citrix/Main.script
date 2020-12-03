@@ -1,0 +1,56 @@
+﻿///Step1///
+run "Open/Word"
+run "SmokeTests/Word/MS Word 2016 - 01. Funktionen Standart ohne Touch - Citrix/Steps/Step1"
+Click "Close_Citrix"
+wait 2
+
+///Step2///
+run "Open/Word"
+run "SmokeTests/Word/MS Word 2016 - 01. Funktionen Standart ohne Touch - Citrix/Steps/Step2"
+Click "Close_Citrix"
+wait 2
+
+///Step3///
+run "SmokeTests/Word/MS Word 2016 - 01. Funktionen Standart ohne Touch - Citrix/Steps/Step3"
+wait 2
+
+///Step4///
+run "Open/Word"
+run "SmokeTests/Word/MS Word 2016 - 01. Funktionen Standart ohne Touch - Citrix/Steps/Step4"
+Click "Close_Citrix"
+wait 2
+
+///Step5///
+run "SmokeTests/Word/MS Word 2016 - 01. Funktionen Standart ohne Touch - Citrix/Create_Word_With_Dotx&Docx"
+run "SmokeTests/Word/MS Word 2016 - 01. Funktionen Standart ohne Touch - Citrix/Steps/Step5"
+run "SmokeTests/Word/MS Word 2016 - 01. Funktionen Standart ohne Touch - Citrix/Delete_Word_With_Dotx&Docx"
+wait 2
+
+///Step6///
+//run "SmokeTests/Word/MS Word 2016 - 01. Funktionen Standart ohne Touch - Citrix/Steps/Step6"
+wait 2
+
+///Step7///
+run "Open/Word"
+run "SmokeTests/Word/MS Word 2016 - 01. Funktionen Standart ohne Touch - Citrix/Steps/Step7"
+Click "Close_Citrix"
+
+///Step8///
+run "Open/Word"
+run "SmokeTests/Word/MS Word 2016 - 01. Funktionen Standart ohne Touch - Citrix/Create_Word_With_Link&TableOfContents_&Export_ToPDF"
+wait 8
+run "SmokeTests/Word/MS Word 2016 - 01. Funktionen Standart ohne Touch - Citrix/Steps/Step8"
+Click "Close_Citrix"
+run "SmokeTests/Word/MS Word 2016 - 01. Funktionen Standart ohne Touch - Citrix/Delete_Word_With_Link&TableOfContent_&Export_ToPDF"
+wait 2
+
+///Step9///
+run "Open/Word"
+run "SmokeTests/Word/MS Word 2016 - 01. Funktionen Standart ohne Touch - Citrix/Steps/Step9"
+Click "Close_Citrix"
+wait 2
+
+///Step10///
+
+
+

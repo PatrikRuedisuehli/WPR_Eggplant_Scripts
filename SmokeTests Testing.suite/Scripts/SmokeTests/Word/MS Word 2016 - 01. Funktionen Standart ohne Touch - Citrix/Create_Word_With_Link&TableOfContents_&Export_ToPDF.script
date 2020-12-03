@@ -1,0 +1,34 @@
+﻿Click "Click_Word_Page"
+TypeText "Test1"
+DoubleClick "Word_DoubleClick_Text"
+Click "Word_Überschrift"
+TypeText Return
+TypeText Return
+TypeText "Test2"
+DoubleClick "Word_DoubleClick_Text"
+Click "Word_Überschrift"
+Click "Word_Überschrift_1"
+TypeText Return
+TypeText Return
+Click "Word_Click_Verweise"
+Click "Word_Click_inhaltsverzeichnis"
+Click "Word_Click_Inhaltsverzeichnis_auswahl"
+Click "Click_Word_Page"
+Click "Word_Click_Start"
+Click "Word_Click_Standart_Schrift"
+TypeText "www.google.com",Return
+wait 3
+TypeText altKey, "d"
+wait 5
+TypeText altKey
+wait 3
+Click "Word_Exportieren"
+Click "Word_PDFXPS-Dokument_erstellen"
+Click "Word_PDFXPS-Dokument_erstellen_2"
+wait 3
+DoubleClick "Bilder_Icon_Bibliothek"
+Click "Word_Dateiname_Pdf"
+TypeText deleteKey, deleteKey, deleteKey, deleteKey, deleteKey, deleteKey, deleteKey, deleteKey, deleteKey, deleteKey, deleteKey
+wait 2
+TypeText "TestPDF1"
+Click "Word_PDF_Veröffentlichen"

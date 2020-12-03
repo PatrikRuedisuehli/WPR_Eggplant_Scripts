@@ -1,0 +1,19 @@
+﻿TypeText altKey, "d"
+Wait 5
+TypeText altKey
+wait 2
+Click "Word_SpeicherUnter"
+Click "Word_Speicherort_Durchsuchen"
+Click "Bilder_Icon_Bibliothek"
+Click "Word_Dateiname_Docx"
+TypeText deleteKey, deleteKey, deleteKey, deleteKey, deleteKey, deleteKey, deleteKey, deleteKey, deleteKey, deleteKey, deleteKey
+wait 2
+TypeText "XPSdok1"
+Click "Word_Dateityp_Dropdown"
+Click "Word_Dateityp_Xps"
+Click "Word_Speichern"
+
+
+
+
+

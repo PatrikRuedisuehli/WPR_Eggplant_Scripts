@@ -1,0 +1,4 @@
+﻿run "SmokeTests/Publisher/Create_PublisherFile"
+run "SmokeTests/Publisher/Check_OpenPublisher"
+run "SmokeTests/Publisher/Close_Publisher"
+run "SmokeTests/Publisher/Delete_PublisherFile"

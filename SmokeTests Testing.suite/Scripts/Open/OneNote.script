@@ -1,0 +1,13 @@
+﻿run "Open/Citrix_Workplace"
+TypeText "OneNote"
+Wait 2
+Click "OneNote_Icon"
+Wait 90
+If ImageFound("OneNote_Header_Icon") then
+	Click "OneNote_Header_Icon"
+	
+Else
+	Click "OneNote_Icon"
+	WaitFor 90.0, "OneNote_Header_Icon"
+	Click "OneNote_Header_Icon"
+End if

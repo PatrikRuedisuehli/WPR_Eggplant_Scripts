@@ -1,0 +1,17 @@
+﻿run "SmokeTestsEdge/SmokeTests/OneNote/Check_ImageGallery_OneNote"
+run "SmokeTestsEdge/SmokeTests/OneNote/Close_OneNote"
+Click "Edge_Close"
+wait 2
+
+run "SmokeTestsEdge/SmokeTests/OneNote/Check_DefaultFont"
+run "SmokeTestsEdge/SmokeTests/OneNote/Close_OneNote"
+Click "Edge_Close"
+wait 2
+
+run "SmokeTestsEdge/SmokeTests/OneNote/Check_Printer_OneNote"
+Click "Edge_Close"
+wait 2
+run "SmokeTests/OneNote/Create_ONE_File"
+run "SmokeTests/OneNote/Open_ONE_Files"
+run "SmokeTests/OneNote/Close_OneNote"
+run "SmokeTests/OneNote/Delete_ONE_File"

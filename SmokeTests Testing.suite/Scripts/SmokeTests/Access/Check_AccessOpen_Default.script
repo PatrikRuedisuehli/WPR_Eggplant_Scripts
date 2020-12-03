@@ -1,0 +1,23 @@
+﻿Click (Image:"Explorer_Icon", WaitFor:10.4)
+
+Click "Explorer_Click"
+
+DoubleClick "Explorer_H"	
+DoubleClick "Explorer_DesktopIconH"
+DoubleClick "Explorer_AccessIcon"
+
+If ImageFound("Access_Open") then
+	LogSuccess "Funktioniert"
+	Wait 10
+	If ImageFound("Access_Close") then
+		Click "Access_Close"
+	Else
+		Click "OneNote_Close/OneNote_Close2"
+	End if
+	
+Else
+	LogError "Funktioniert nicht"
+End if
+
+Wait 5
+Click "Close_Explorer"

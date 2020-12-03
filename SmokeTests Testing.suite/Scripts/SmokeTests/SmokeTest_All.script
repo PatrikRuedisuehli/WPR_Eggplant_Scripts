@@ -1,0 +1,8 @@
+﻿run "SmokeTests/OneNote/SmokeTest_OneNote"
+run "SmokeTests/PowerPoint/Smoketest_PowerPoint"
+run "SmokeTests/Publisher/Smoketest_Publisher"
+run "SmokeTests/Access/SmokeTest_Access"
+run "SmokeTests/Excel/MS Excel 2016 - 01. Funktionen Standard ohne Touch - Citrix/Main"
+run "SmokeTests/Word/MS Word 2016 - 01. Funktionen Standart ohne Touch - Citrix/Main"
+run "SmokeTests/Word/MS Word 2016 - 03. Funktionen - XPS Dokument Erstellen und Öffnen - Citrix/Main"
+run "SmokeTests/Outlook/MS Outlook 2016 - 01. Funktionen Standard ohne Touch - Citrix-2016/Main"

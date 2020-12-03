@@ -1,0 +1,10 @@
+{
+    adaptiveConstant = <*I7>;
+    commandList = "[{captureRect:[102, 714, 149, 727], elementName:\"Powerpoint_Einfuegen\", eventNum:2, folderPath:\"\", hotSpot:[117, 50.680203], imageName:\"Powerpoint_Einfuegen\", itemEvent:\"TurboListItemEvent_Click\", itemMode:\"TurboListItemMode_Existing\", itemType:\"TurboListItemType_Image\", screenShotFile:\"Screen0002.png\", searchType:\"Tolerant of Background\", skipStep:0, userModified:1, usingTempImageName:0, waitForTime:-1}, {captureRect:[112, 671, 143, 702], elementName:\"Powerpoint_Bilder\", eventNum:4, folderPath:\"\", hotSpot:[125, 91.614213], imageName:\"Powerpoint_Bilder\", itemEvent:\"TurboListItemEvent_Click\", itemMode:\"TurboListItemMode_Existing\", itemType:\"TurboListItemType_Image\", screenShotFile:\"Screen0004.png\", searchType:\"Tolerant of Background\", skipStep:0, userModified:1, usingTempImageName:0, waitForTime:-1}, {captureRect:[60, 566.101523, 92, 576.101523], elementName:\"Explorer_Bilder\", eventNum:6, folderPath:\"\", hotSpot:[62, 195.898477], imageName:\"Explorer_Bilder\", itemEvent:\"TurboListItemEvent_Click\", itemMode:\"TurboListItemMode_Existing\", itemType:\"TurboListItemType_Image\", screenShotFile:\"Screen0006.png\", searchType:\"Tolerant of Background\", skipStep:0, userModified:1, usingTempImageName:0, waitForTime:-1}, {captureRect:[186, 559, 356, 576], elementName:\"Explorer_Gallery\", eventNum:8, folderPath:\"\", hotSpot:[239, 204], imageName:\"Explorer_Gallery\", itemEvent:\"TurboListItemEvent_Click\", itemMode:\"TurboListItemMode_Existing\", itemType:\"TurboListItemType_Image\", screenShotFile:\"Screen0008.png\", searchType:\"Tolerant of Background\", skipStep:0, userModified:1, usingTempImageName:0, waitForTime:-1}]";
+    dilations = <*I3>;
+    maxSize = <*I300>;
+    minSize = <*I16>;
+    savedWithEpfVersion = <*I1912121710>;
+    sessionType = turboSession;
+    sessionUsesDOMObjects = <*BN>;
+}

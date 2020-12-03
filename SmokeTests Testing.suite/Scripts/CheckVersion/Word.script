@@ -1,0 +1,5 @@
+﻿run "Open/Word"
+
+Click "Word_Datei"
+Click "Word_Konto"
+Click "Info"

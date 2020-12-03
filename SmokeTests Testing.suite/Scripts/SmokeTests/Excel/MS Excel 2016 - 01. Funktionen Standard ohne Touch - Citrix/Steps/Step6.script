@@ -1,0 +1,24 @@
+﻿DoubleClick "Excel_xlsx_Icon"
+wait 10
+Click "Close_Excel"
+wait 3
+DoubleClick "Excel_xltx_Icon"
+wait 10
+Click "Excel_OK"
+wait 2
+Click "Close_Excel"
+wait 3
+DoubleClick "Excel_xltm_Icon"
+wait 10
+Click "Excel_OK"
+wait 2
+Click "Close_Excel"
+wait 3
+DoubleClick "Excel_xlsm_Icon"
+wait 10
+Click "Excel_OK"
+wait 2
+Click "Close_Excel"
+wait 3
+LogSuccess "Step6 erfolgreich erledigt"
+LogSuccess "Beide Dateien wurden mit Excel geöffnet"

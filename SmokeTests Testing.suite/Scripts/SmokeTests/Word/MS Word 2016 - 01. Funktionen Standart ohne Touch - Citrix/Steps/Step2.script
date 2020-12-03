@@ -1,0 +1,9 @@
+﻿If ImageFound("Word_SBBCFFFFS_Vorlage")
+	LogSuccess "Step2 erfolgrich erledigt"
+	LogSuccess "SBB CFF FFS Vorlage wurde in Word gefunden"
+	Click "Close_Word"
+else
+	LogError "SBB CFF FFS Vorlage wurde in Word nicht gefunden"
+End If
+
+

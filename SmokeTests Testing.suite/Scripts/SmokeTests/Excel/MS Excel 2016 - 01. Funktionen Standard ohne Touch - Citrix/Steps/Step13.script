@@ -1,0 +1,41 @@
+﻿TypeText altKey, "d"
+wait 5
+TypeText altKey
+wait 2
+Click "Excel_Menü_Optionen"
+Click "Excel_MenübandAnpassen"
+If ImageFound("Excel_Menüband_Einfügen_aufklappen") then 
+	Click "Excel_Menüband_Einfügen_aufklappen"
+	Click "Excel_Menüband_Einfügen_anklicken"
+else
+	Click "Excel_Menüband_Einfügen_anklicken"
+End If
+Click "Excel_Menüband_NeueGruppe"
+Click "Excel_Menüband_HäufigVerwendeteBefehle_Dropdown"
+Click "Excel_Menüband_NichtImMenübandEnthalteneBefehle"
+Repeat until ImageFound("Excel_Menüband_PowerViewBerichtEinfügen_2")
+	if ImageFound("Excel_Menüband_PowerViewBerichtEinfügen_2")
+		
+	else
+		ScrollWheelDown 5
+	end if
+End repeat
+wait 2
+Click "Excel_Menüband_PowerViewBerichtEinfügen/Excel_Menüband_PowerViewBerichtEinfügen_2"
+wait 5
+Click "Excel_Menüband_Hinzufügen"
+Click "Excel_Menüband_Gruppe_Umbenennen"
+TypeText "MeineBerichte"
+Click "Excel_OK"
+Click "Excel_OK"
+Click "Excel_Menü_Einfügen"
+Click "Excel_PowerViewIcon"
+wait 30
+if ImageFound("Excel_PowerView1")
+	Click "Close_Excel"
+	Click "Excel_NichtSpeichern"
+	LogSuccess "Step13 erflogreich erledigt"
+	LogSuccess "Es wurde ein Neues benuterdefiniertes PowerView erstellt welches funktioniert"
+else
+	LogError "Es wurde kein Neues benuterdefiniertes PowerView erstellt welches funktioniert"
+end if

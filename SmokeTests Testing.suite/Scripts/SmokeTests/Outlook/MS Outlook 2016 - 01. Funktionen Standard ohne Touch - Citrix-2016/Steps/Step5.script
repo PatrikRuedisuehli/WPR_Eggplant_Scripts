@@ -1,0 +1,22 @@
+﻿TypeText altKey, "d"
+wait 5
+TypeText altKey
+wait 2
+Click "Outlook_Kontoeinstellungen"
+Click "Outlook_Kontoeinstellungen_2"
+Click "Outlook_Kontoeinstellungen_Email"
+Click "Outlook_Kontoeinstellungen_Email_ändern"
+Click "Outlook_Kontoeinstellungen_Email_ändern_WeitereEinstellungen"
+Click "Outlook_OK"
+Click "Outlook_Kontoeinstellungen_Email_ändern_WeitereEinstellungen_Erweitert"
+if ImageFound("Outlook_Kontoeinstellungen_Email_ändern_WeitereEinstellungen_FreigegebeneOrdnerHerunterladen")
+	Click "Outlook_Close_Kontoeinstellungen"
+	Click "Outlook_Close_Kontoeinstellungen"
+	Click "Outlook_Close_Kontoeinstellungen"
+	wait 2
+	Click "Close_Outlook"
+	LogSuccess "Step5 erfolgreich erledigt"
+	LogSuccess "Die Option Freigegebene Ordner herunterladen ist deaktiviert."
+	else
+	LogError "Die Option Freigegebene Ordner herunterladen ist nicht deaktiviert."
+end if

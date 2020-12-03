@@ -1,0 +1,18 @@
+﻿Click "Outlook_NeueEmail"
+Click "Outlook_NeueEmail_Überprüfen"
+Click "Outlook_NeueEmail_Überprüfen_Sprache"
+Click "Outlook_NeueEmail_Überprüfen_SpracheFürKorrekturhilfen"
+if ImageFound("Outlook_NeueEmail_Überprüfen_SpracheFürKorrekturhilfen_Sprachen")
+	
+	LogSuccess "Step6 erfolgreich erledigt"
+	LogSuccess "Die aktive Sprache (CH-Deutsch, -Französisch oder -Italienisch) sind defaultmäsig eingestellt. Optional ist noch Englisch (UK & US)"
+else
+	LogError "Die aktive Sprache (CH-Deutsch, -Französisch oder -Italienisch) sind defaultmäsig nicht eingestellt. Optional ist noch Englisch (UK & US) nicht vorhanden"
+	
+end if
+
+Click "Outlook_OK"
+Click "Close_Outlook"
+Click "Outlook_ÄnderungenSpeichern_Nein"
+Click "Close_Outlook"
+

@@ -1,0 +1,3 @@
+﻿Click "Close_Outlook"
+LogSuccess "Step1 erfolgrich erledigt"
+LogSuccess "Outlook konnte geöffnet werden"

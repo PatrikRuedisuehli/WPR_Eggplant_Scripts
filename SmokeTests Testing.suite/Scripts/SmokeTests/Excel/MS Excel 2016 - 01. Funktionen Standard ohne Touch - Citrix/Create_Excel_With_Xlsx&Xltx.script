@@ -1,0 +1,24 @@
+﻿Click "Windows_Explorer"
+DoubleClick "Desktop_Image"
+RightClick "RightClick"
+Click "Menü_Neu"
+Click "Neues_Excel_Dok"
+TypeText "TestDok1", return
+RightClick "RightClick"
+Click "Menü_Neu"
+Click "Neues_Excel_Dok"
+TypeText Backspace,DeleteKey,DeleteKey,DeleteKey,DeleteKey,DeleteKey,DeleteKey
+TypeText "TestDok2.xltx", return
+Click "Dateiformat_ändern_bestätigen"
+RightClick "RightClick"
+Click "Menü_Neu"
+Click "Neues_Excel_Dok"
+TypeText Backspace,DeleteKey,DeleteKey,DeleteKey,DeleteKey,DeleteKey,DeleteKey
+TypeText "TestDok3.xlsm", return
+Click "Dateiformat_ändern_bestätigen"
+RightClick "RightClick"
+Click "Menü_Neu"
+Click "Neues_Excel_Dok"
+TypeText Backspace,DeleteKey,DeleteKey,DeleteKey,DeleteKey,DeleteKey,DeleteKey
+TypeText "TestDok4.xltm", return
+Click "Dateiformat_ändern_bestätigen"

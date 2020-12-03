@@ -1,0 +1,19 @@
+﻿Click (Image:"EdgeIcon", WaitFor:30)
+Wait 5
+//Triple Click
+put the RemoteWorkInterval into defaultRWI
+put the MouseDoubleClickDelay into clickTime
+set the RemoteWorkInterval to clickTime
+
+Click "Edge_Home"
+Click
+Click
+
+set the RemoteWorkInterval to defaultRWI
+
+TypeText Backspace
+TypeText "storefront.sbb.ch",Return
+Wait 10
+
+Click "Apps_Icon"
+Click "Search_Icon"

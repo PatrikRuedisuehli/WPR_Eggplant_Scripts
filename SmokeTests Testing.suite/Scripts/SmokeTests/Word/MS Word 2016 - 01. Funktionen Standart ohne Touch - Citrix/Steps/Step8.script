@@ -1,0 +1,17 @@
+﻿Click "Word_PDF_Click_Link"
+wait 7
+Click "Close_Google"
+Click "Word_PDF_Click_Inhaltsverzeichnis"
+Wait 3
+If ImageFound("Word_Überschrift_Test1")
+	LogSuccess "Step8 erfolgreich erledigt"
+	LogSuccess "PDF wurde erfolgreich erstellt und die Funktionen Link und Inhaltsverzeichnis haben funktioniert"
+else
+	LogError "PDF wurde nicht erfolgreich erstellt und die Funktionen Link und Inhaltsverzeichnis haben nicht funktioniert"
+End If
+
+Click "Close_Word"
+wait 2
+Click "Close_Word"
+wait 2
+Click "Word_nichtSpeichern"

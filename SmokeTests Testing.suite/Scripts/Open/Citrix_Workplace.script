@@ -1,0 +1,7 @@
+﻿Click "Windows_Icon.png"
+TypeText "Citrix Receiver"
+Wait 2
+Click "Citrix_Receiver_Icon"
+WaitFor 20, "Apps_Icon"
+Click "Apps_Icon"
+Click "Search_Icon"

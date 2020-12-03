@@ -1,0 +1,7 @@
+﻿If ImageFound("Excel_ZweiGleicheArbeitsmappen_Error") then
+	Click "Excel_ZweiGleicheArbeitsmappen_Error"
+	Wait 5
+Else
+	Wait 2
+End if
+

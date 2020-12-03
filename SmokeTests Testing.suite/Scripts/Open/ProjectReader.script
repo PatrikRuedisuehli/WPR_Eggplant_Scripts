@@ -1,0 +1,13 @@
+﻿run "Open_Citrix_Workplace"
+TypeText "ProjectReader"
+Wait 2
+Click "ProjectReader_Icon"
+Wait 90
+If ImageFound("ProjectReader_Datei") then
+	Click "ProjectReader_Datei"
+	
+Else
+	Click "ProjectReader_Icon"
+	WaitFor 90.0, "ProjectReader_Datei"
+	Click "ProjectReader_Datei"
+End if

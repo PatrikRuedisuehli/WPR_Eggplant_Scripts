@@ -1,0 +1,41 @@
+﻿TypeText altKey, "d"
+wait 5
+TypeText altKey
+wait 2
+Click "Excel_Menü_Optionen"
+Click "Excel_MenübandAnpassen"
+Click "Excel_Menüband_Entwicklertools"
+Click "Excel_OK"
+wait 3
+Click "Excel_Entwicklertools"
+Click "Excel_Entwicklertools_Einfügen"
+wait 2
+Click "Excel_Entwicklertools_Einfügen_Erweiterung"
+wait 3
+Repeat until ImageFound("Excel_Entwicklertools_Einfügen_Erweiterung_MicrosoftDateandTimePickerCont")
+	if ImageFound("Excel_Entwicklertools_Einfügen_Erweiterung_MicrosoftDateandTimePickerCont")
+		
+	else
+		ScrollWheelDown 3
+	end if
+End repeat
+wait 2
+Click "Excel_Entwicklertools_Einfügen_Erweiterung_MicrosoftDateandTimePickerCont"	
+Wait 5
+Click "Excel_OK"
+wait 2
+Click "Excel_Cells"
+wait 5
+If ImageFound("Excel_DateAndTimePicker") then
+	LogSuccess "Step9 erfolgreich erledigt"
+	LogSuccess "Date and Time Picker kann eingefügt werden"
+	
+Else
+	LogError "Date and Time Picker kann eingefügt werden"
+	
+End if
+
+Click "Close_Excel"
+wait 3
+
+If ImageFound("Excel_NichtSpeichern") then Click "Excel_NichtSpeichern"

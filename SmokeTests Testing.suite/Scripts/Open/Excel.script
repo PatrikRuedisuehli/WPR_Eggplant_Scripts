@@ -1,0 +1,13 @@
+﻿run "Open/Citrix_Workplace"
+TypeText "Excel"
+Wait 2
+Click "Excel_Icon"
+Wait 90
+If ImageFound("Excel_Header_Icon") then
+	Click "Excel_Header_Icon"
+	
+Else
+	Click "Excel_Icon"
+	WaitFor 90.0, "Excel_Header_Icon"
+	Click "Excel_Header_Icon"
+End if

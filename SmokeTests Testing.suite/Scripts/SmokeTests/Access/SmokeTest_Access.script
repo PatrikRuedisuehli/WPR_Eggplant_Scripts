@@ -1,0 +1,14 @@
+﻿///Step4///
+run "SmokeTests/Access/Check_AccessSave_Default"
+
+///Step2///
+run "SmokeTests/Access/Check_AccessFields"
+
+///Step3///
+run "SmokeTests/Access/Check_AccessOpen_Default"
+
+
+
+///Step5///
+
+///Step6///
